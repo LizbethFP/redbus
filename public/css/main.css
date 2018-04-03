@@ -1,23 +1,14 @@
 /* Clases reutilizables */
-:root {
-  --color1: #e0aa00; /*color distintivo de marca*/
-  --color2: #ffd87f; /*kaki*/
-  --color3: #f6f4f4;  /*withesmoke*/
-  --color4: #5a5854; /*dimgray*/
-  --color5: #211916; /*black*/
-  --color6: #b9373e; /*brown*/
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
 .color-gray {
-  color: var(--color5);
+  color: #211916;
 }
 
 .button-payment {
-  background-color: var(--color6);
+  background-color: #b9373e;
   border-radius: 13px;
 }
 
@@ -42,19 +33,19 @@ body {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid var(--color2);
+  border-bottom: 1px solid #ffd87f;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: var(--color1);
+  color: #e0aa00;
   background-color: #fff;
-  border-color: var(--color2) var(--color2) #fff;
+  border-color: #ffd87f #ffd87f #fff;
 }
 
 /* rgba(252, 208, 106, 0.5) */
 
 .nav-tabs .nav-link {
-  color: var(--color4);
+  color: #5a5854;
 }
 
 .line-height {
@@ -62,18 +53,18 @@ body {
 }
 
 .payment-code {
-  background-color: var(--color1);
+  background-color: #e0aa00;
   color: #fff;
   height: 20vh;
 }
 
 .payment-price {
-  background-color: var(--color3);
+  background-color: #f6f4f4;
   height: 20vh;
 }
 
 .payment-expire {
-  background-color: var(--color2);
+  background-color: #ffd87f;
   height: 20vh;  
 }
 
@@ -90,8 +81,8 @@ span#date {
   font-size: 1.2em;
 }
 
-ul#responsive li img {
-width: 80%;
+.lightSlider.lsGrab>* {
+  cursor: pointer;
 }
 
 ul#payment-internet {
@@ -99,12 +90,13 @@ ul#payment-internet {
 }
 
 ul#responsive li img {
-  border: 1px solid var(--color2);
+  border: 1px solid #ffd87f;
 }
 
-.icon-payment-slider {
+.icon-payment-slider,
+ul#responsive li img {
   width: 5em;
-  border: 1px solid var(--color2);
+  border: 1px solid #ffd87f;
 }
 
 li.nav-item.icon-bank {
@@ -125,16 +117,16 @@ ul.lSPager.lSpg {
   display: none !important;
 }
 
-.instructions {
-  color: var(--color1);
-}
-
 .active-bank {
-   border: 3px solid var(--color1)!important;
+   border: 3px solid #e0aa00 !important;
 }
 
-.BCP p>span, .Interbank p>span, .Fullcarga p>span {
-  color: var(--color1);
+.BCP p>span,
+.Interbank p>span,
+.Fullcarga p>span,
+.instructions,
+.mail {
+  color: #e0aa00;
 }
 
 /*footer*/
@@ -142,7 +134,7 @@ ul.lSPager.lSpg {
 .footer-icon-print {
   width: 4em;
   height: 3em;
-  border: 1px solid var(--color1);
+  border: 1px solid #e0aa00;
   border-radius: 10px;
 }
 
@@ -153,12 +145,9 @@ ul.lSPager.lSpg {
 .fs-footer {
   font-size: 0.75em;
 }
-.mail {
-  color: var(--color1);
-}
 
 .mail:hover {
-  color: var(--color2);
+  color: #ffd87f;
 }
 
 @media (min-width: 576px) {
@@ -169,7 +158,8 @@ ul.lSPager.lSpg {
   p#price {
     font-size: 1em;
   }
-  .icon-payment-slider {
+  .icon-payment-slider,
+  ul#responsive li img {
     width: 6em;
   }
 }
@@ -191,7 +181,8 @@ ul.lSPager.lSpg {
   .fs-footer {
     font-size: 0.9em;
   }
-  .icon-payment-slider {
+  .icon-payment-slider,
+  ul#responsive li img {
     width: 9em;
   }
 }
@@ -199,9 +190,6 @@ ul.lSPager.lSpg {
 @media (min-width: 992px) {
   .font-size-tab {
     font-size: 1.3rem;
-  }
-  .font-size-payment-instruction {
-    font-size: 1.35em;
   }
   p#code {
     font-size: 2.5em;
@@ -215,7 +203,8 @@ ul.lSPager.lSpg {
   .payment-icon-footer {
     width: 9em;
   }
-  .icon-payment-slider {
+  .icon-payment-slider,
+  ul#responsive li img {
     width: 10em;
   }
   #payment-internet-tab1.lSAction {
