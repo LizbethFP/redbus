@@ -12,13 +12,21 @@ La página debe cumplir con los siguientes requisitos funcionales.
 
 ## Prototipo Desktop
 
+[Ver prototipo](https://marvelapp.com/3bij8dc)
+
 ### Alta fidelidad
 
 ![](assets/images/pagoefectivobcp.png)
 
+#### Primer diseño
+
 ![](assets/images/diseñoimpresion.png)
 
-[Ver prototipo](https://marvelapp.com/3bij8dc)
+#### Segundo diseño
+
+![](doc/impresion2.png)
+
+
 
 
 
