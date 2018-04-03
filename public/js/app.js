@@ -169,28 +169,4 @@ window.addEventListener('load', function () {
   $('#print-icon').on('click', function () {
     window.print();
   });
-
-  // resize code payment
-  /* let code = '9125682';
-  $('.code').text(code);
-  // let code = $('.code').text();
-  let width = 0;
-  if (self.screen) {   
-    width = screen.width;
-  } else if (self.java) { // for NN3 with enabled Java
-    let jkit = java.awt.Toolkit.getDefaultToolkit();
-    let scrsize = jkit.getScreenSize();
-    width = scrsize.width;
-  }
-  if (width > 0 && width < 576 && code.length >= 8) {
-    let fontSize = 1;
-    fontSize -= 0.2;
-    let newFontSize = fontSize + 'em';
-    $('.code').css('font-size', newFontSize);
-  } else {
-    let fontSize = 2.3;
-    fontSize -= 0.2;
-    let newFontSize = fontSize + 'em';
-    $('.code').css('font-size', newFontSize);
-  }*/
 });
