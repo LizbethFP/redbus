@@ -206,6 +206,10 @@ window.addEventListener('load', () => {
     }
   });
 
+  $('#print-icon').on('click', () => {
+    window.print();
+  });
+
   // resize code payment
   /* let code = '9125682';
   $('.code').text(code);
