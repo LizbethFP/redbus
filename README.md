@@ -12,14 +12,22 @@ La página debe cumplir con los siguientes requisitos funcionales.
 
 ## Prototipo Desktop
 
+[Ver prototipo](https://marvelapp.com/3bij8dc)
+
 ### Alta fidelidad
 
 ![](assets/images/pagoefectivo-bancainternet.png)
 ![](assets/images/pagoefectivo-pagoefectivo.JPG)
 
+#### Primer diseño
+
 ![](assets/images/diseñoimpresion.png)
 
-[Ver prototipo](https://marvelapp.com/3bij8dc)
+#### Segundo diseño
+
+![](doc/impresion2.png)
+
+
 
 ## No funcionales
 
